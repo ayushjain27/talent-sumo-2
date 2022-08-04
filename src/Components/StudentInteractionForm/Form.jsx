@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 const Form = () => {
   const [display, setDisplay] = useState(false);
   const navigate = useNavigate();
-  const [seconds, setSeconds] = useState(10);
-  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(0);
+  const [minutes, setMinutes] = useState(30);
   const [displays, setDisplays] = useState({ display: "none" });
   const [opacity, setOpacity] = useState({opacity: '1'})
 
